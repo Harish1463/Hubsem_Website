@@ -1,0 +1,108 @@
+/* ---------------------------------------------section 1---------------------------------------------- */
+
+.services-s1-parallax{
+    background-image: url("../../Images/Services/Services-bg.jpg");
+    opacity: 0.2;
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.services-s1-parallax-text{
+    position: absolute;
+    z-index: 1000;
+    top: 58%;
+    left: 43%;
+
+    font-size: 46px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+/* TAB view */
+@media screen and (max-width: 763px) {
+    .services-s1-parallax-text{
+        font-size: 28px;
+        top: 50%;
+        left: 40%;
+    }
+    .services-s1-parallax{
+        background-size: fill;
+        background-attachment: scroll;
+        height: 320px;
+        width: 100%;
+    }
+    
+}
+
+/* MOBILE view */
+@media screen and (max-width: 576px) {
+    .services-s1-parallax-text{
+        font-size: 28px;
+        top: 48%;
+        left: 30%;
+    }
+    .services-s1-parallax{
+        background-size: fill !important;
+        background-attachment: scroll !important;
+        height: 270px !important;
+        width: 100%;
+    }
+    
+}
+
+/* ----------------------------------------section 2---------------------------------------------------- */
+
+.services-3rd-row{
+    padding: 100px 50px 100px 50px !important;
+    background-color: #ffffff;
+}
+
+.services-remove-3rd-border{
+    border: none !important;
+}
+
+/* 3rd Section Cards */
+
+.services-card-img-top {
+    height: 300px; /* Set the desired height */
+    width: 100%; /* Set width to 100% to match card width */
+    object-fit: fill; /* Use 'cover' to maintain aspect ratio and cover the area */
+}
+
+.services-sec-3rd-heading{
+    text-align: center;/* Set the paragraph to CENTER like MS Word*/
+    color: #000000;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 25px;
+    /* padding: 20px 0px 0px 0px !important; */
+}
+
+.services-sec-3rd-para{
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+}
+
+.services-card-3rd-sec{
+    text-align-last: center;
+}
+
+.services-sec-3rd-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.services-sec-3rd-link:hover{
+    color: #000000;
+}

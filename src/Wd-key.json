@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "BESPOKE DESIGN",
+        "description": "We create bespoke web designs that capture your brand's unique identity and resonate with your audience. Our designers focus on aesthetics and usability to ensure your website is both beautiful and functional.",
+        "icon": "faLayerGroup"
+    },
+    {
+        "id": 2,
+        "title": "RESPONSIVE LAYOUTS",
+        "description": "Our development team uses the latest techniques to build websites that adapt fluidly to any screen size. This ensures your site looks great and performs well on desktops, tablets, and smartphones.",
+        "icon": "faMobile"
+    },
+    {
+        "id": 3,
+        "title": "MAINTENANCE AND SUPPORT",
+        "description": "Our services don’t end at launch. We offer ongoing maintenance and support to keep your website running smoothly and securely.",
+        "icon": "faScrewdriverWrench"
+    }
+]

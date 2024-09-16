@@ -1,0 +1,45 @@
+:root{
+    --WORK-BG: #68B852;
+    --WORK-TXT: #ffffff;
+}
+
+.icon{
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    background-color: var(--WORK-BG);
+    color: var(--WORK-TXT);
+    padding: 13px 0px;
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+span i{
+    padding-right: 10px;
+}
+
+.socialmedia{
+    background-color: var(--WORK-BG);
+    padding-right: 70px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 1fr;
+}
+
+.appIcon{
+    color: var(--WORK-TXT);
+    position: relative;
+    top: 0;   
+    transition: ease 0.5s; 
+}
+
+.appIcon:hover{
+    color: var(--WORK-TXT);
+    top: -5px;
+    cursor: pointer;
+}
+
+/* @media only screen and (max-width: 600px) {
+    {
+      background-color: lightblue;
+    }
+  } */

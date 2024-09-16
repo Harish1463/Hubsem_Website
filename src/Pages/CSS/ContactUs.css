@@ -1,0 +1,492 @@
+/* ---------------------------------------------section 1---------------------------------------------- */
+
+.contactus-s1-parallax{
+    background-image: url("../../Images/ContactUs/Img21.jpg");
+    opacity: 0.2;
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.contactus-s1-parallax-text{
+    position: absolute;
+    z-index: 1000;
+    top: 58%;
+    left: 40%;
+
+    font-size: 46px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+/* TAB view */
+@media screen and (max-width: 763px) {
+    .contactus-s1-parallax-text{
+        font-size: 28px;
+        top: 50%;
+        left: 40%;
+    }
+    .contactus-s1-parallax{
+        background-size: fill;
+        background-attachment: scroll;
+        height: 320px;
+        width: 100%;
+    }
+    
+}
+
+/* MOBILE view */
+@media screen and (max-width: 576px) {
+    .contactus-s1-parallax-text{
+        font-size: 28px;
+        top: 48%;
+        left: 30%;
+    }
+    .contactus-s1-parallax{
+        background-size: fill !important;
+        background-attachment: scroll !important;
+        height: 270px !important;
+        width: 100%;
+    }
+    
+}
+
+/* ------------------------------------------section 2----------------------------------------------- */
+
+.contactus-sec2-container{
+    background-color: #FAFAFA;
+    /* background-color: aqua; */
+    padding: 100px 130px 50px 130px  !important;
+    margin: 0 !important;
+}
+
+/* box */
+.contactus-sec2-box{
+    background-color: #ffffff;
+    padding: 25px 50px;
+    /* margin: 10px; */
+}
+
+/* Icons */
+.contactus-sec2-icon{
+    font-size: 30px;
+    padding: 15px;
+    color: #ffffff !important;
+    background-color: #FE873D;
+    transition: 0.5s ease;
+    position: relative;
+    top: 0px;
+
+    &:hover{
+        top: -10px;
+    }
+}
+
+/* icon heading */
+.contactus-sec2-heading{
+    text-transform: uppercase;
+    color: #243D44;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 25px 0px 10px 0px;
+}
+
+/* icon contact info */
+.contactus-sec2-info{
+    text-decoration: none;
+    color: #243D44;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+/* TAB view */
+@media screen and (max-width: 763px) {
+    .contactus-sec2-container{
+        padding: 50px !important;
+        margin: 0 !important;
+    }
+    
+}
+
+/* MOBILE view */
+@media screen and (max-width: 576px) {
+    .contactus-sec2-container{
+        padding: 25px !important;
+        margin: 0 !important;
+    }
+
+    .contactus-sec2-pad{
+        padding-bottom: 50px !important;
+    }
+    
+}
+
+/* -----------------------------------------------Section 3--------------------------------------------- */
+
+.contactus-sec-5th-container{
+    display: flex;
+    background-color: #FAFAFA;
+    border-radius: 30px;
+    margin: 100px !important;
+    padding: 50px !important;
+}
+
+.contactus-sec-5th-col-1{
+    padding: 30px 0 0 35px !important;
+}
+
+@media screen and (max-width: 763px ) {
+    .contactus-follow-txt{
+        font-size: 26px !important;
+    }
+    
+    .contactus-sec-5th-col-1{
+        padding: 16px;
+    }
+
+    .contactus-sec-5th-container{
+        margin: 25px !important;
+        padding: 25px !important;
+    }    
+}
+
+@media screen and (max-width: 567px ) {
+    .contactus-follow-txt{
+        font-size: 26px !important;
+    }
+    
+    .contactus-sec-5th-col-1{
+        padding: 8px;
+    }
+
+    .contactus-sec-5th-container{
+        margin: 15px !important;
+        padding: 15px !important;
+    }   
+    
+    .contactus-call-us-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contactus-call-us-num{
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    /* social media icons */
+    .contactus-5th-facebook{
+        font-size: 20px !important;
+        padding: 6px 18px !important;
+    }
+    
+    .contactus-5th-instagram{
+        font-size: 20px !important;
+        padding: 7px 15px !important;
+    }
+    
+    .contactus-5th-twitter{
+        font-size: 20px !important;
+        padding: 9px 15px !important;
+    }
+    
+    .contactus-5th-linkedin{
+        font-size: 20px !important;
+        padding: 9px 15px !important;
+    }
+    
+    .contactus-5th-youtube{
+        font-size: 20px !important;
+        padding: 8px 13px !important;
+    }
+}
+
+/* Follow us on */
+.contactus-follow-txt{
+    font-size: 15px;
+    color: #243D44;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+/* social media icons */
+.contactus-5th-social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+/* contact us para */
+.contactus-s3-para{
+    color: #000000;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: justify;
+
+}
+
+.contactus-5th-facebook{
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    background-color: #3B5998;
+    padding: 7px 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    transition: .5s ease;
+}
+
+.contactus-5th-instagram{
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    background-color: #F0249D;
+    padding: 8px 17px;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    transition: .5s ease;
+}
+
+.contactus-5th-twitter{
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    background-color: #1DA1F2;
+    padding: 9px 15px;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    transition: .5s ease;
+}
+
+.contactus-5th-linkedin{
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    background-color: #0077B5;
+    padding: 9px 17px;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    transition: .5s ease;
+}
+
+.contactus-5th-youtube{
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    background-color: #CD201F;
+    padding: 9px 13px;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    transition: .5s ease;
+}
+
+/* social media icons hover */
+.contactus-5th-icon:hover{
+    color: #ffffff;
+    background-color: #FE873D;
+    top: -10px;
+}
+
+/* follow para */
+.contactus-follow-para{
+    padding-top: 16px;
+    color: #000000;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Call us today */
+.contactus-call-us-container{
+    display: flex;
+    margin-top: 20px;
+    border: 2px solid #c9c9c9;
+    transition: .5s ease;
+}
+
+.contactus-call-us-container:hover{
+    border: 2px solid #68B852;
+}
+
+.contactus-call-us-icon{
+    color: #68B852;
+    font-size: 55px;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+}
+
+.contactus-call-us-txt{
+    text-decoration: none;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    color: #68B852;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+
+.contactus-call-us-txt:hover{
+    color: #68B852;
+}
+
+.contactus-call-us-num{
+    color: #000000;
+    font-size: 15px;
+    line-height: 20px;
+    padding-right: 20px;
+}
+
+.contactus-call-5th-info{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* -------------------------------------------Form------------------------------------------- */
+.contactus-5th-form{
+    padding: 0px 50px !important;
+    margin-left: 48px !important;
+}
+
+.contactus-stay-in-touch{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #FE873D;
+    padding-bottom: 30px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+
+.contactus-lets-connect{
+    font-size: 36px;
+    font-family: Helvetica, sans-serif;
+    color: #243D44;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.contactus-interest{
+    color: #595959;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px !important;
+    margin-bottom: -10px !important;
+}
+
+@media screen and (max-width: 763px) {
+    .contactus-5th-form{
+        padding: 0px 20px !important;
+        margin: 0px !important;
+    }
+    
+    .contactus-lets-connect{
+        font-size: 32px;
+    }
+
+    .contactus-5th-form{
+        padding: 20px 15px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contactus-lets-connect{
+        font-size: 26px;
+    }
+    .contactus-5th-form{
+        padding: 20px 15px !important;
+    }
+}
+
+/* PLACEHOLDERS inside input & textarea */
+::placeholder{  
+    color:  grey!important;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.contactus-sec-5th-form-option{
+    color:  grey!important;
+    font-size: 16px !important;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400 !important;
+}
+
+/* input box */
+.contactus-sec-5th-input{
+    color: grey !important;
+    height: 60px;
+    padding: 0px 30px !important;
+    border: none !important;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #c9c9c9;
+}
+
+/* Text area */
+.contactus-sec-5th-txtarea{
+    color: grey !important;
+    padding: 30px 30px !important;
+    height: 170px;
+    border: none !important;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #c9c9c9;
+}
+
+.contactus-sec-5th-input:focus{
+    outline-style: none !important;
+    box-shadow: none !important;
+    /* border-radius: 15px !important; */
+    box-shadow: 2px 2px 5px #c9c9c9 !important;
+}
+
+.contactus-sec-5th-txtarea:focus{
+    outline-style: none !important;
+    box-shadow: none !important;
+    /* border-radius: 15px !important; */
+    box-shadow: 2px 2px 5px #c9c9c9 !important;
+}
+
+.contactus-form-btn{
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 510;
+    font-family: "Poppins", sans-serif;
+    padding: 12px 30px !important;
+    border: none;
+    border-radius: 5px;
+    background-color: #68B852;
+    transition: .5s ease;
+}
+
+.contactus-form-btn:hover{
+    opacity: 0.8;
+}
+
+/* To remove the error icon in the forms */
+.was-validated .form-control:valid,
+.was-validated .form-control:invalid,
+.was-validated .form-select:valid,
+.was-validated .form-select:invalid {
+  background-image: none !important;
+}

@@ -1,0 +1,226 @@
+.navbar{
+    height: auto;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(36, 61, 68);
+}
+
+.sticky-top{
+    margin-top: -1px;
+}
+
+.logo-hubsem{
+    height: 70px;
+}
+
+.nav-logo{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    padding-right: 70px;
+}
+
+.quote-button{
+    background-color: #68B852;
+    border: none;
+    padding: 12px 17px;
+}
+
+.quote-style{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu-item{
+    padding-bottom: 20px;
+}
+
+.nav-item-element{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.active{
+    color: #68B852 !important;
+    text-decoration: none;
+}
+
+.nav-item-element:hover{
+    color: #68B852 !important;
+}
+
+.menu-item-element{
+    color: #000000;
+}
+
+.menu-item-element:hover{
+    color: #68B852 !important;
+}
+
+.nav-service-btn{
+    color: #ffffff !important;
+}
+
+.nav-service-btn:hover{
+    color: #68B852 !important;
+}
+
+.services-dropdown-button{
+    background-color: rgb(36, 61, 68);
+    border: none;
+    margin-left: -7px;
+}
+
+.menu-button{
+    border: none !important;
+    background-color: rgb(36, 61, 68);
+    color: #68B852;
+    text-decoration: none;
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+
+.x-button{
+    font-size: 20px;
+    border: none;
+    background-color: #68B852;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-left: 170px;
+}
+
+.navbar-toggler{
+    transition: 10s;
+}
+
+.modal-backdrop.show{
+    opacity: 0.2;
+}
+
+/* Inside Services Menu */
+.nav-services-menu{
+    position: relative;
+    top:40px;
+    border-radius: 0px !important;
+    padding: 30px 25px !important; 
+    opacity: 0.95;
+    width: 900px;
+    transition: 10s ease !important;
+}
+
+.sevices-item-heading{
+    color: #68B852;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.services-item-content{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 450;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    /* border: none; */
+    padding-bottom: 15px;
+}
+
+.services-item-content:hover{
+    color: #68B852 !important;
+    background-color: #ffffff !important;
+}
+
+/* Inside Services Menu [Mobile View] */
+.services-menu-mobile{
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.services-menu-mobile:hover{
+    color: #68B852 !important;
+}
+
+.services-line{
+    margin-top: -5px;
+    margin-bottom: 17px;
+    padding-right: 0px;
+}
+
+.services-ddbtn{
+    margin-left: 20px;
+    padding: 0px 18px 0px 18px !important;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.services-ddbtn:hover{
+    color: #68B852;
+    border: 1px solid #68B852;
+    background-color: #ffffff;
+}
+
+.services-mob-heading{
+    width: 400px;
+    color: #68B852;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-family: "Poppins", sans-serif;
+}
+
+.services-mob-page{
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+}
+
+.services-mob-page:hover{
+    color: #68B852 !important;
+    background-color: #ffffff !important;
+}
+
+.service-mob-border{
+    border: none !important;
+    padding-top: 30px !important;
+}
+
+.space-between{
+    margin-top: 22px;
+}
+
+/* For hover the services */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+.dropdown>.dropdown-toggle:active {
+    /* /Without this, clicking will make it sticky/ */
+    pointer-events: none;
+}
+
+.mob-logo{
+    height: 80px !important;
+}
+
+
+/* get a quote btn link */
+.nav-bar-quotebtn{
+    text-decoration: none;
+}

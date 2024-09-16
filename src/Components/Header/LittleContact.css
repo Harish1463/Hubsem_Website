@@ -1,0 +1,48 @@
+:root{
+    --ICON_COLOR: #68B852;
+}
+
+.little-contact-icon{
+    font-size: 13px;
+    color: var(--ICON_COLOR);
+    padding: 0px 2px;
+    margin-top: 10px;
+}
+
+.little-contact-hover{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    padding: 0px 5px;
+    transition:  2s;
+}
+
+.little-contact-hover:hover{
+    color: var(--ICON_COLOR);
+    transition:  .5s;
+}
+
+.Little-social-media{
+    color: var(--ICON_COLOR);
+    background-color: #ffffff;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.little-app-Icon{
+    color: var(--ICON_COLOR);
+    padding: 0px 16px;
+    position: relative;
+    top: 0;   
+    transition: ease 0.5s; 
+}
+
+.little-app-Icon:hover{
+    color: #000000;
+    top: -5px;
+    cursor: pointer;
+}

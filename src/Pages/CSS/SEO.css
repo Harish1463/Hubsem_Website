@@ -1,0 +1,522 @@
+/* --------------------------------------section 1------------------------------------------------- */
+
+/* resweb-container */
+.seo-sec1-container{
+    margin: 0 !important;
+    overflow: hidden;
+}
+
+/* section 1 container */
+.seo-col1-container{
+    padding: 90px 15px 90px 100px !important;
+}
+
+/* creating txt */
+.seo-sec1-creating-txt{
+    font-size: 26px;
+    color: #FE873D;
+    font-family: "Pacifico", sans-serif;
+    line-height: 45px;
+    padding-bottom: 20px;
+}
+
+/* Responsive Web txt */
+.seo-sec1-responsive-txt{
+    font-size: 36px;
+    font-family: Helvetica, sans-serif;
+    color: #243D44;
+    font-weight: 700;
+    line-height: 45px;
+    padding-bottom: 10px;
+}
+
+/* engaging txt */
+.seo-sec1-engaging-txt{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #243D44;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+/* paragraph */
+.seo-sec1-para{
+    color: #000000;
+    font-size: 15px;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+}
+
+/* section 2 container */
+.seo-col2-container{
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+
+/* section 1 image */
+.seoSec1Img{
+    height: 70%;
+    width: 60%;
+}
+
+/* TAB view */
+@media screen and (max-width: 763px) {
+    .seo-col1-container{
+        padding: 50px 30px !important;
+    }
+
+    .seo-sec1-creating-txt{
+        font-size: 22px;
+        line-height: 10px;
+    }
+
+    /* Responsive Web txt */
+    .seo-sec1-responsive-txt{
+        font-size: 34px;
+    }
+
+    /* section 1 image */
+    .seoSec1Img{
+        height: 100%;
+        width: 70%;
+    }
+
+}
+
+/* MOBILE view */
+@media screen and (max-width: 576px) {
+    .seo-sec1-creating-txt{
+        font-size: 26px;
+    }
+
+    /* Responsive Web txt */
+    .seo-sec1-responsive-txt{
+        font-size: 26px;
+    }
+
+    /* section 1 image */
+    .seoSec1Img{
+        height: 100%;
+        width: 90%;
+    }
+}
+
+/* ----------------------------------------------section 2---------------------------------------------- */
+
+.seo-sec2-container{
+    background-color: #F3EFEF;
+    padding: 100px !important;
+}
+
+.seo-sec2-main-heading{
+    font-size: 36px;
+    font-family: Helvetica, sans-serif;
+    color: #243D44;
+    font-weight: 700;
+    line-height: 50px;
+
+    padding: 0px 0px 15px 70px;
+}
+
+.seo-sec2-heading{
+    text-transform: uppercase;
+    color: #243D44;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.seo-sec2-para{
+    color: #000000;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400 !important;
+}
+
+/* vertical line */
+.seo-sec2-custom-timeline .vertical-timeline::before{
+    background-color: #243D44;
+    width: 1px;
+}
+
+/* vertical timeline icon */
+.seo-sec2-custom-timeline .vertical-timeline-element-icon{
+    background: #FE873D;
+    color: #ffffff;
+    box-shadow: none;
+    /* transform: scale(1.3); */
+    padding: 40px;
+    translate:-11px;
+}
+
+/* TAB view */
+@media screen and (max-width: 763px) {
+
+    .seo-sec2-container{
+        padding: 50px !important;
+    }
+
+    /* Heading */
+    .seo-sec2-main-heading{
+        font-size: 34px;
+        text-align: start;
+        margin: 0;
+        padding-left: 0;
+        padding-bottom: 40px;
+    }
+
+    .seo-sec2-heading{
+        font-size: 15px;
+    }
+
+     /* vertical timeline icon */
+    .seo-sec2-custom-timeline .vertical-timeline-element-icon{
+        padding: 30px !important;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 576px) {
+
+    .seo-sec2-container{
+        padding: 50px 20px !important;
+    }
+
+    /* Heading */
+    .seo-sec2-main-heading{
+        font-size: 26px;
+        text-align: start;
+        margin: 0;
+        padding-left: 0;
+        padding-bottom: 40px;
+    }
+
+    .seo-sec2-heading{
+        font-size: 15px;
+    }
+    
+    /* vertical timeline icon */
+    .seo-sec2-custom-timeline .vertical-timeline-element-icon{
+        padding: 25px !important;
+        translate:-6px;
+    }
+}
+
+/* ----------------------------------------------section 3---------------------------------------------- */
+
+.seo-sec3-container{
+    margin: 0 !important;
+    padding: 100px !important;
+}
+
+/* Why invest txt */
+.seo-sec3-why{
+    margin-left: -8px !important;
+    font-size: 36px;
+    font-family: Helvetica, sans-serif;
+    color: #243D44;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 10px;
+}
+
+/* list style icon */
+.seo-sec3-li-container i {
+    margin-right: 10px;
+    margin-top: 5px; /* Space between icon and text */
+    color: #FE873D;
+    font-size: 20px;
+}
+
+/* list elements */
+.seo--sec3-li{
+    color: #000000;
+    font-size: 15px;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    border-bottom: 1px solid #B4B4B4;
+
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+}
+
+/* section 3 image */
+.seo-Sec3Img{
+    height: 90%;
+    width: 100%;
+}
+
+.seo-sec3-col1-container{
+    padding-top: 25px;
+    text-align: center;
+}
+
+/* TAB view */
+@media screen and (max-width: 763px) {
+
+    .seo-sec3-container{
+        padding: 100px 30px !important;
+    }
+
+    /* Why invest txt */
+    .seo-sec3-why{
+        font-size: 34px;
+    }
+
+    .seo-sec3-li-container{
+        padding: 0px !important;
+    }
+
+    /* section 3 image */
+    .seo-Sec3Img{
+        height: 100%;
+        width: 90%;
+    }
+
+    .seo-sec3-col1-container{
+        display: flex;
+        justify-content: center;
+        padding-top: 0px !important;
+    }
+
+    .seo-sec3-col2-container{
+        padding-top: 50px !important;
+    }
+
+}
+
+/* MOBILE view */
+@media screen and (max-width: 576px) {
+    /* Why invest txt */
+    .seo-sec3-why{
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    /* section 3 image */
+    .seo-Sec3Img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* ------------------------------------------section 4----------------------------------------- */
+
+.seo-sec-4th{
+    padding: 100px !important;
+}
+
+@media screen and (max-width: 576px){
+    .seo-sec-4th{
+        padding: 100px 50px 100px 50px!important;
+    }
+
+    .seo-stand-out-txt{
+        font-size: 26px !important;
+    }
+
+    .seo-sec4-heading{
+        font-size: 15px !important;
+    }
+}
+
+.seo-stand-out{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.seo-stand-out-txt{
+    font-size: 36px;
+    font-family: Helvetica, sans-serif;
+    color: #243D44;
+    font-weight: 700;
+}
+
+
+.seo-icon-4th-sec{
+    height: 25%;
+    width: 25%;
+    object-fit: cover;
+}
+
+.seo-sec-4th-img-holder{
+    text-align: center !important;
+}
+
+.seo-sec4th-elemnet{
+    background-color: #f5f5f5 !important;
+    border-radius: 28px !important;
+    position: relative;
+    top: 0px;
+    transition: .5s ease !important;
+}
+
+.seo-sec4th-elemnet:hover{
+    top: -10px;
+}
+
+.seo-sec4-heading{
+    text-align: center;/* Set the paragraph to JUSTIFY like MS Word*/
+    color: #000000;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 25px;
+    /* padding: 20px 0px 0px 0px !important; */
+}
+
+.seo-sec4-para{
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+}
+
+/* ------------------------------------------section 5 [NO TECH STACK NEEDED HERE] ----------------------------------------- */
+
+/* ------------------------------------------------------section 6----------------------------------------------------- */
+
+/* section 6 container */
+.seo-s6-container{
+    position: relative;
+    margin: 0;
+    padding: 100px;
+    background-color: #f5f5f5;
+}
+
+/* parallax image */
+.seo-s6-parallax{
+    /* black tint for top of the background image */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../Images/AboutUs/Slider-2\ new.jpg");
+    min-height: 310px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    border-radius: 35px;
+}
+
+/* parallax content container */
+.seo-s6-parallax-container{
+    position: absolute;
+    right: 1%;
+    padding: 55px 150px !important;
+    
+}
+
+/* heading */
+.seo-s6-parallax-txt{
+    font-size: 36px;
+    font-family: Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* paragraph */
+.seo-s6-parallax-para{
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+/* button container */
+.seo-s6-btn-container{
+    text-align: center;
+}
+
+/* button */
+.seo-s6-btn{
+    background-color: #68b852;
+    border: none;
+    letter-spacing: 1.5px;
+    padding: 10px 30px;
+    border-radius: 5px;
+
+    &:hover{
+        background-image: linear-gradient(to right, #68B852, #FE873D 100%);
+    }
+}
+
+/* link inside button */
+.seo-s6-btn-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    &:hover{
+        color: #ffffff;
+    }
+}
+
+/* TAB view */
+@media screen and (max-width: 763px) {
+
+    /* section 6 container */
+    .seo-s6-container{
+        padding: 50px;
+    }
+
+    /* parallax image */
+    .seo-s6-parallax{
+        min-height: 400px;
+        background-size: fill !important;
+        background-attachment: scroll !important;
+    }
+
+    /* parallax content container */
+    .seo-s6-parallax-container{
+        right: 1%;
+        padding: 60px 100px !important;
+        
+    }
+
+    /* heading */
+    .seo-s6-parallax-txt{
+        font-size: 34px;
+    }
+
+}
+
+/* MOBILE view */
+@media screen and (max-width: 576px) {
+
+    /* section 6 container */
+    .seo-s6-container{
+        padding: 40px 15px;
+    }
+
+    /* parallax image */
+    .seo-s6-parallax{
+        background-size: fill !important;
+        background-attachment: scroll !important;
+    }
+
+    /* parallax content container */
+    .seo-s6-parallax-container{
+        right: 1%;
+        padding: 50px 40px !important;
+        
+    }
+
+    /* heading */
+    .seo-s6-parallax-txt{
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+}

@@ -1,0 +1,593 @@
+/* --------------------------------------section 1------------------------------------------------- */
+
+/* cad-container */
+.CAD-sec1-container{
+    margin: 0 !important;
+    overflow: hidden;
+}
+
+/* section 1 container */
+.CAD-col1-container{
+    padding: 90px 15px 90px 100px !important;
+}
+
+/* creating txt */
+.CAD-sec1-creating-txt{
+    font-size: 26px;
+    color: #FE873D;
+    font-family: "Pacifico", sans-serif;
+    line-height: 45px;
+    padding-bottom: 20px;
+}
+
+/* Responsive Web txt */
+.CAD-sec1-responsive-txt{
+    font-size: 36px;
+    font-family: Helvetica, sans-serif;
+    color: #243D44;
+    font-weight: 700;
+    line-height: 45px;
+    padding-bottom: 10px;
+}
+
+/* engaging txt */
+.CAD-sec1-engaging-txt{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #243D44;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+/* paragraph */
+.CAD-sec1-para{
+    color: #000000;
+    font-size: 15px;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+}
+
+/* section 2 container */
+.CAD-col2-container{
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+
+/* section 1 image */
+.CADSec1Img{
+    height: 60%;
+    width: 65%;
+}
+
+/* TAB view */
+@media screen and (max-width: 763px) {
+    .CAD-col1-container{
+        padding: 50px 30px !important;
+    }
+
+    .CAD-sec1-creating-txt{
+        font-size: 22px;
+        line-height: 10px;
+    }
+
+    /* Responsive Web txt */
+    .CAD-sec1-responsive-txt{
+        font-size: 34px;
+    }
+
+    /* section 1 image */
+    .CADSec1Img{
+        height: 100%;
+        width: 70%;
+    }
+
+}
+
+/* MOBILE view */
+@media screen and (max-width: 576px) {
+    .CAD-sec1-creating-txt{
+        font-size: 26px;
+    }
+
+    /* Responsive Web txt */
+    .CAD-sec1-responsive-txt{
+        font-size: 26px;
+    }
+
+    /* section 1 image */
+    .CADSec1Img{
+        height: 100%;
+        width: 90%;
+    }
+}
+
+/* ----------------------------------------------section 2---------------------------------------------- */
+
+.cad-sec2-container{
+    background-color: #F3EFEF;
+    padding: 100px !important;
+}
+
+.cad-sec2-main-heading{
+    font-size: 36px;
+    font-family: Helvetica, sans-serif;
+    color: #243D44;
+    font-weight: 700;
+    line-height: 50px;
+
+    padding: 0px 0px 15px 70px;
+}
+
+.cad-sec2-heading{
+    color: #243D44;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.cad-sec2-para{
+    color: #000000;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400 !important;
+}
+
+/* vertical line */
+.cad-sec2-custom-timeline .vertical-timeline::before{
+    background-color: #243D44;
+    width: 1px;
+}
+
+/* vertical timeline icon */
+.cad-sec2-custom-timeline .vertical-timeline-element-icon{
+    background: #FE873D;
+    color: #ffffff;
+    box-shadow: none;
+    padding: 40px;
+    translate:-11px;
+}
+
+/* TAB view */
+@media screen and (max-width: 763px) {
+
+    .cad-sec2-container{
+        padding: 50px !important;
+    }
+
+    /* Heading */
+    .cad-sec2-main-heading{
+        font-size: 34px;
+        text-align: start;
+        margin: 0;
+        padding-left: 0;
+        padding-bottom: 40px;
+    }
+
+    .cad-sec2-heading{
+        font-size: 15px;
+    }
+
+     /* vertical timeline icon */
+    .cad-sec2-custom-timeline .vertical-timeline-element-icon{
+        padding: 30px !important;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 576px) {
+
+    .cad-sec2-container{
+        padding: 50px 20px !important;
+    }
+
+    /* Heading */
+    .cad-sec2-main-heading{
+        font-size: 26px;
+        text-align: start;
+        margin: 0;
+        padding-left: 0;
+        padding-bottom: 40px;
+    }
+
+    .cad-sec2-heading{
+        font-size: 15px;
+    }
+    
+    /* vertical timeline icon */
+    .cad-sec2-custom-timeline .vertical-timeline-element-icon{
+        padding: 25px !important;
+        translate:-6px;
+    }
+}
+
+/* ----------------------------------------------section 3---------------------------------------------- */
+
+.cad-sec3-container{
+    margin: 0 !important;
+    padding: 100px !important;
+}
+
+/* Why invest txt */
+.cad-sec3-why{
+    margin-left: -8px !important;
+    font-size: 36px;
+    font-family: Helvetica, sans-serif;
+    color: #243D44;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 10px;
+}
+
+/* list style icon */
+.cad-sec3-li-container i {
+    margin-right: 10px;
+    margin-top: 5px; /* Space between icon and text */
+    color: #FE873D;
+    font-size: 20px;
+}
+
+/* list elements */
+.cad-sec3-li{
+    color: #000000;
+    font-size: 15px;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    border-bottom: 1px solid #B4B4B4;
+
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+}
+
+/* section 3 image */
+.cadSec3Img{
+    height: 70%;
+    width: 100%;
+    align-items: center;
+}
+
+.cad-sec3-col1-container{
+    padding-top: 25px;
+}
+
+/* TAB view */
+@media screen and (max-width: 763px) {
+
+    .cad-sec3-container{
+        padding: 100px 30px !important;
+    }
+
+    /* Why invest txt */
+    .cad-sec3-why{
+        font-size: 34px;
+    }
+
+    .cad-sec3-li-container{
+        padding: 0px !important;
+    }
+
+    /* section 3 image */
+    .cadSec3Img{
+        height: 100%;
+        width: 80%;
+    }
+
+    .cad-sec3-col1-container{
+        display: flex;
+        justify-content: center;
+        padding-top: 0px !important;
+    }
+
+    .cad-sec3-col2-container{
+        padding-top: 50px !important;
+    }
+
+}
+
+/* MOBILE view */
+@media screen and (max-width: 576px) {
+    /* Why invest txt */
+    .cad-sec3-why{
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    /* section 3 image */
+    .cadSec3Img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* ------------------------------------------section 4----------------------------------------- */
+
+.cad-sec-4th{
+    padding: 100px !important;
+}
+
+@media screen and (max-width: 576px){
+    .cad-sec-4th{
+        padding: 100px 50px 100px 50px!important;
+    }
+
+    .cad-stand-out-txt{
+        font-size: 26px !important;
+    }
+
+    .cad-sec4-heading{
+        font-size: 15px !important;
+    }
+}
+
+.cad-stand-out{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.cad-stand-out-txt{
+    font-size: 36px;
+    font-family: Helvetica, sans-serif;
+    color: #243D44;
+    font-weight: 700;
+}
+
+
+.cad-icon-4th-sec{
+    height: 25%;
+    width: 25%;
+    object-fit: cover;
+}
+
+.cad-sec-4th-img-holder{
+    text-align: center !important;
+}
+
+.cad-sec4th-elemnet{
+    background-color: #F3EFEF !important;
+    border-radius: 28px !important;
+    position: relative;
+    top: 0px;
+    transition: .5s ease !important;
+}
+
+.cad-sec4th-elemnet:hover{
+    top: -10px;
+}
+
+.cad-sec4-heading{
+    text-align: center;/* Set the paragraph to JUSTIFY like MS Word*/
+    color: #000000;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 25px;
+    /* padding: 20px 0px 0px 0px !important; */
+}
+
+.cad-sec4-para{
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+}
+
+/* ------------------------------------------section 5----------------------------------------- */
+
+.cad-sec5-container{
+    background-color: #f5f5f5;
+    padding: 100px;
+    margin: 0;
+}
+
+/* Tech Stack txt */
+.cad-sec5-heading{
+    font-size: 36px;
+    font-family: Helvetica, sans-serif;
+    color: #243D44;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+/* Tech Stack Card */
+.cad-sec5-icon-container{
+    margin: 10px 20px;
+    width: 80% !important;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* tech stack logo */
+.cad-sec5-img{
+    height: auto;
+    width: 70%;
+    padding: 20px 0px !important;
+}
+
+/* tech stack caption */
+.cad-sec5-caption{
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    color: #243D44;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+/* TAB view */
+@media screen and (max-width: 763px) {
+    .cad-sec5-container{
+        padding: 50px 20px;
+    }
+    
+    /* Tech Stack txt */
+    .cad-sec5-heading{
+        font-size: 34px;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 576px) {
+    /* Tech Stack txt */
+    .cad-sec5-heading{
+        font-size: 26px;
+    }
+
+    /* Tech Stack Card */
+    .cad-sec5-icon-container{
+        width: 90% !important;
+    }
+
+    /* tech stack logo */
+    .cad-sec5-img{
+        height: 30%;
+        width: 30%;
+    }
+}
+
+/* ------------------------------------------------------section 6----------------------------------------------------- */
+
+/* section 6 container */
+.cad-s6-container{
+    position: relative;
+    padding: 100px;
+    background-color: #ffffff;
+}
+
+/* parallax image */
+.cad-s6-parallax{
+    /* black tint for top of the background image */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../Images/AboutUs/Slider-2\ new.jpg");
+    min-height: 310px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    border-radius: 35px;
+}
+
+/* parallax content container */
+.cad-s6-parallax-container{
+    position: absolute;
+    right: 1%;
+    padding: 55px 150px !important;
+    
+}
+
+/* heading */
+.cad-s6-parallax-txt{
+    font-size: 36px;
+    font-family: Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* paragraph */
+.cad-s6-parallax-para{
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+/* button container */
+.cad-s6-btn-container{
+    text-align: center;
+}
+
+/* button */
+.cad-s6-btn{
+    background-color: #68b852;
+    border: none;
+    letter-spacing: 1.5px;
+    padding: 10px 30px;
+    border-radius: 5px;
+
+    &:hover{
+        background-image: linear-gradient(to right, #68B852, #FE873D 100%);
+    }
+}
+
+/* link inside button */
+.cad-s6-btn-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    &:hover{
+        color: #ffffff;
+    }
+}
+
+/* TAB view */
+@media screen and (max-width: 763px) {
+
+    /* section 6 container */
+    .cad-s6-container{
+        padding: 50px;
+    }
+
+    /* parallax image */
+    .cad-s6-parallax{
+        min-height: 400px;
+        background-size: fill !important;
+        background-attachment: scroll !important;
+    }
+
+    /* parallax content container */
+    .cad-s6-parallax-container{
+        right: 1%;
+        padding: 20px 100px !important;
+        
+    }
+
+    /* heading */
+    .cad-s6-parallax-txt{
+        font-size: 34px;
+    }
+
+}
+
+/* MOBILE view */
+@media screen and (max-width: 576px) {
+
+    /* section 6 container */
+    .cad-s6-container{
+        padding: 40px 15px;
+    }
+
+    /* parallax image */
+    .cad-s6-parallax{
+        background-size: fill !important;
+        background-attachment: scroll !important;
+    }
+
+    /* parallax content container */
+    .cad-s6-parallax-container{
+        right: 1%;
+        padding: 50px 40px !important;
+        
+    }
+
+    /* heading */
+    .cad-s6-parallax-txt{
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+}

@@ -1,0 +1,199 @@
+/* ---------------------------------------------section 1---------------------------------------------- */
+
+.Internship-s1-parallax{
+    background-image: url("../../Images/Intership/Intern-bg.jpg");
+    opacity: 0.2;
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.Internship-s1-parallax-text{
+    position: absolute;
+    z-index: 1000;
+    top: 58%;
+    left: 33%;
+
+    font-size: 46px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+/* TAB view */
+@media screen and (max-width: 763px) {
+    .Internship-s1-parallax-text{
+        font-size: 28px;
+        top: 50%;
+        left: 30%;
+    }
+    .Internship-s1-parallax{
+        background-size: fill;
+        background-attachment: scroll;
+        height: 320px;
+        width: 100%;
+    }
+    
+}
+
+/* MOBILE view */
+@media screen and (max-width: 576px) {
+    .Internship-s1-parallax-text{
+        font-size: 28px;
+        top: 48%;
+        left: 20%;
+    }
+    .Internship-s1-parallax{
+        background-size: fill !important;
+        background-attachment: scroll !important;
+        height: 270px !important;
+        width: 100%;
+    }
+    
+}
+
+/* ------------------------------------------section 2----------------------------------------------- */
+
+.internship-sec2-container{
+    text-align: center;
+    padding: 70px 200px 0px 200px;
+}
+
+.internship-sec2-para{
+    font-style: italic;
+    font-size: 15px;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/* TAB view */
+@media screen and (max-width: 763px) {
+    .internship-sec2-container{
+        text-align: start;
+        padding: 50px 20px 0px;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 576px) {
+    .internship-sec2-container{
+        text-align: start;
+        padding: 35px 10px 0px;
+    }
+}
+
+/* ------------------------------------------section 3--------------------------------------------- */
+
+.internship-form{
+    padding: 0px 250px !important;
+}
+
+.internship-interest{
+    color: #595959;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px !important;
+    margin-bottom: -10px !important;
+}
+
+/* TAB view */
+@media screen and (max-width: 763px) {
+    .internship--form{
+        padding: 0px 20px !important;
+        margin: 0px !important;
+    }
+
+    .internship-form{
+        padding: 20px 15px !important;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 576px) {
+    .internship-form{
+        padding: 20px 15px !important;
+    }
+}
+
+/* PLACEHOLDERS inside input & textarea */
+::placeholder{  
+    color:  grey!important;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.internship-form-option{
+    color:  grey!important;
+    font-size: 16px !important;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400 !important;
+}
+
+/* input box */
+.internship-sec-5th-input{
+    color: grey !important;
+    height: 60px;
+    padding: 0px 30px !important;
+    border: none !important;
+    /* border-radius: 15px; */
+    box-shadow: 2px 2px 5px #c9c9c9;
+}
+
+.internship-sec-5th-input:focus{
+    outline-style: none !important;
+    box-shadow: none !important;
+    /* border-radius: 15px !important; */
+    box-shadow: 2px 2px 5px #c9c9c9 !important;
+}
+
+.internship-sec3-captcha{
+    padding: 30px 0px;
+}
+
+.internship-form-btn{
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 510;
+    font-family: "Poppins", sans-serif;
+    padding: 12px 30px !important;
+    border: none;
+    border-radius: 5px;
+    background-color: #68B852;
+    transition: .5s ease;
+}
+
+.internship-form-btn:hover{
+    opacity: 0.8;
+}
+
+.internship-sec3-error-msg{
+    font-size: 16px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    color: #DC3232;
+}
+
+.internship-sec3-final-error-msg{
+    font-size: 16px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    color: #777777;
+}
+
+/* To remove the error icon in the forms */
+.was-validated .form-control:valid,
+.was-validated .form-control:invalid,
+.was-validated .form-select:valid,
+.was-validated .form-select:invalid {
+  background-image: none !important;
+}
